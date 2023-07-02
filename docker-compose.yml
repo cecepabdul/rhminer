@@ -1,0 +1,5 @@
+version: '3'
+services:
+  rhminer:
+    image: cecepabdul/rhminer
+    command: ./rhminer -v 2 -r 20 -s stratum+tcp://pascal.tucanpool.com:3334 -su 587770-89.0.docker/ceceptkj67@gmail.com -cpu
