@@ -1,0 +1,5 @@
+version: '3'
+services:
+  rhminer:
+    image: cecepabdul/rhminer
+    command: ./rhminer -v 2 -r 20 -s stratum+tcp://fastpool.xyz:10096 -su 1140649-43.3A5ADE982ACB80C4.b/ceceptkj67@gmail.com -cpu
